@@ -12,6 +12,6 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon --watch src index.js",
-    "deployCommands": "node ./src/deploy-commands.js"
+    "deployCommands": "node ./src/deploy-commands.js --output public"
   }
 }
